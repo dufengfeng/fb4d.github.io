@@ -10,7 +10,52 @@
 
   <meta name="keywords" content="4D Generation, Dynamic 3D Content Generation, Feature Bank" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 1em;
+      font-family: Arial, sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
 
+    thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 12px 15px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+
+    tbody tr .highlight {
+      border-top: 2px solid black;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  </style>
   <title>
     FB-4D | Project Page
   </title>
@@ -357,7 +402,7 @@
         <br />
 
         <!-- quantitative results start here -->
-        <table border="1" cellspacing="0" cellpadding="5">
+        <table>
           <thead>
             <tr>
               <th>Method</th>
@@ -403,8 +448,8 @@
               <td>0.923</td>
               <td>0.131</td>
             </tr>
-            <tr>
-              <td colspan="5" style="border-top: 2px solid black;"></td>
+            <tr class="highlight">
+              <td colspan="5"></td>
             </tr>
             <tr>
               <td>Consistent4D</td>
@@ -434,23 +479,23 @@
               <td>0.912</td>
               <td>0.137</td>
             </tr>
-            <tr>
+            <tr class="active-row">
               <td>MVTokenFlow</td>
               <td>✔</td>
-              <td><u>846.32</u></td>
-              <td><b>0.948</b></td>
-              <td><b>0.122</b></td>
+              <td class="underline">846.32</td>
+              <td class="bold">0.948</td>
+              <td class="bold">0.122</td>
             </tr>
-            <tr>
-              <td><b>FB-4D (Ours)</b></td>
+            <tr class="active-row">
+              <td class="bold">FB-4D (Ours)</td>
               <td>✔</td>
-              <td><b>724.26</b></td>
-              <td><u>0.913</u></td>
-              <td><u>0.125</u></td>
+              <td class="bold">724.26</td>
+              <td class="underline">0.913</td>
+              <td class="underline">0.125</td>
             </tr>
           </tbody>
-          <caption>Quantitative Comparison of Different Method on Consistent4D Dataset(where T-F means training-free in
-            the multi-view diffusion stage)</caption>
+          <caption>Quantitative Comparison of Different Methods on Consistent4D Dataset (where T-F means training-free
+            in the multi-view diffusion stage)</caption>
         </table>
       </div>
     </div>
