@@ -3,11 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
   <meta name="description"
     content="FB-4D: Spatial-Temporal Coherent Dynamic 3D Content Generation with Feature Banks" />
-
   <meta name="keywords" content="4D Generation, Dynamic 3D Content Generation, Feature Bank" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
@@ -22,7 +19,7 @@
     }
 
     thead tr {
-      background-color: #009879;
+      background-color: #4CAF50;
       color: #ffffff;
       text-align: left;
     }
@@ -37,11 +34,15 @@
     }
 
     tbody tr:nth-of-type(even) {
-      background-color: #f3f3f3;
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-of-type(odd) {
+      background-color: #ffffff;
     }
 
     tbody tr:last-of-type {
-      border-bottom: 2px solid #009879;
+      border-bottom: 2px solid #4CAF50;
     }
 
     tbody tr .highlight {
@@ -54,6 +55,17 @@
 
     .bold {
       font-weight: bold;
+    }
+
+    caption {
+      caption-side: bottom;
+      font-size: 0.9em;
+      color: #555555;
+      padding: 10px;
+    }
+
+    .separator-row td {
+      border-bottom: 2px solid #4CAF50;
     }
   </style>
   <title>
@@ -89,58 +101,42 @@
               Generation with Feature Banks
             </h2>
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
               <span class="author-block">
                 Jinwei Li<sup>*1,2</sup>,</span>
               <span class="author-block">
                 <a href="https://c7w.tech/about/" target="_blank">Huan-ang Gao</a><sup>*1,2</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Wenyi Li<sup>1</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Haohan Chi<sup>1,2</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Chenyu Liu<sup>1,2</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Chenxi Du<sup>2</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Yiqian Liu<sup>1,2</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Mingju Gao<sup>1</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Zongzheng Zhang<sup>1</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 <a href="https://ericyi.github.io/" target="_blank">Li Yi</a><sup>3</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 <a href="https://yoyo000.github.io/" target="_blank">Yao Yao</a><sup>4</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 <a href="https://lihongyang.info/" target="_blank">Hongyang Li</a><sup>5</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Jingwei Zhao<sup>6</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 Yikai Wang<sup>7</sup>,</span>
               <span class="author-block">
-                <!-- <a href="SECOND AUTHOR PERSONAL LINK" target="_blank" -->
                 <a href="https://sites.google.com/view/fromandto" target="_blank">Hao Zhao</a><sup>&dagger;1</sup>
             </div>
-            <!-- a margin of 0.5em -->
             <div style="margin: 0.5em;"></div>
             <div class="is-size-5 publication-authors">
               <span class="author-block is-size-6">
                 <sup>1</sup> Institute for AI Industry Research (AIR), Tsinghua University &nbsp;&nbsp;&nbsp;
                 <sup>2</sup> Department of Computer Science and Technology, Tsinghua University &nbsp;&nbsp;&nbsp;
-
                 <sup>3</sup> Institute for Interdisciplinary Information Sciences, Tsinghua University
                 &nbsp;&nbsp;&nbsp;
                 <br>
@@ -148,16 +144,13 @@
                 <sup>5</sup> Shanghai AI Laboratory &nbsp;&nbsp;&nbsp;
                 <sup>6</sup> Xiaomi Corporation
                 <sup>7</sup> School of Artificial Intelligence, Beijing Normal University
-                <!-- <div style="margin: 0.1em;"></div> -->
                 <span class="eql-cntrb"><small><br /><sup>*</sup>Indicates Equal Contribution</small></span>
-                <!-- a span of 5em-->
                 <span style="margin: 1em;"></span>
                 <span class="eql-cntrb"><small><sup>&dagger;</sup>Indicates Corresponding Author</small></span>
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
-                <!-- Arxiv PDF link -->
                 <span class="link-block">
                   <a href="https://arxiv.org/pdf/2403.09638.pdf" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
@@ -168,7 +161,6 @@
                   </a>
                 </span>
 
-                <!-- Github link -->
                 <span class="link-block">
                   <a href="https://github.com/AIR-DISCOVER/SCP-Diff-Toolkit" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
@@ -179,7 +171,6 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/2403.09638" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
@@ -197,30 +188,15 @@
     </div>
   </section>
 
-  <!-- Teaser video-->
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <video poster="" id="tree" autoplay controls muted loop height="100%">
-          <!-- Your video here -->
           <source src="static/videos/teaser.mp4" type="video/mp4" />
-          <!-- </video> -->
-          <!-- centering the image -->
-
-          <!-- <img src="static/images/Teaser_cs1.jpg" width="100%" /> -->
-          <!-- <h2 class="has-text-centered is-size-6">
-            <b>Left to right: Semantic Label Map, Ground Truth, Ours.</b> The proposed SCP-Diff can generate
-            photo-realistic images from semantic masks. While the state-of-the-art method ECGAN achieves 44.5 FID on
-            Cityscapes, our method achieves 10.5 FID. The quality is credited to the strong spatial and categorical
-            prior
-            of Cityscapes.
-          </h2> -->
       </div>
     </div>
   </section>
-  <!-- End teaser video -->
 
-  <!-- Paper abstract -->
   <section class="section hero is-light">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
@@ -249,13 +225,10 @@
       </div>
     </div>
   </section>
-  <!-- End paper abstract -->
 
-  <!-- Youtube video -->
   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
-        <!-- Paper video. -->
         <h2 class="title is-3">Method</h2>
         <div class="columns is-centered">
           <img src="static/images/main.png" width="55%" />
@@ -284,13 +257,10 @@
       </div>
     </div>
   </section>
-  <!-- End youtube video -->
 
-  <!-- Youtube video -->
   <section class="hero is-small is-light">
     <div class="hero-body">
       <div class="container">
-        <!-- Paper video. -->
         <h2 class="title is-3">Results</h2>
         <div class="columns is-centered has-text-centered"
           style="width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column">
@@ -299,109 +269,19 @@
             <div style="width: 100%;">
               <img src="static/images/quality1.png" alt="">
             </div>
-            <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider2" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_cs/000067.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_cs/000067.png_ours.jpg" alt="">
-              </div>
-            </div> -->
           </div>
 
           <div style="margin: 0.5em;"></div>
-
 
           <div style="width: 70%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
             <div style="width: 100%;">
               <img src="static/images/quality2.png" alt="">
             </div>
-            <!-- <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider4" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_cs/000097.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_cs/000097.png_ours.jpg" alt="">
-              </div>
-            </div> -->
           </div>
-
-          <!-- <div style="margin: 0.5em;"></div>
-          <div style="width: 70%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
-            <div style="width: 100%;">
-              <img src="static/images/contrast/SV4D.png" alt="">
-            </div>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider5" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/contrast/STAG4D.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/contrast/ours.jpg" alt="">
-              </div>
-            </div>
-          </div> -->
-          <!-- <div style="margin: 0.5em;"></div>
-
-          <div style="width: 70%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
-            <div style="width: 100%;">
-              <img src="static/images/web_cs/000127.png_label.jpg" alt="">
-            </div>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider5" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_cs/000127.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_cs/000127.png_ours.jpg" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div style="margin: 0.5em;"></div>
-
-          <div style="width: 55%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
-            <div style="width: 100%;">
-              <img src="static/images/web_ade20k/001109.png_label.jpg" alt="">
-            </div>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider6" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_ade20k/001109.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_ade20k/001109.png_ours.jpg" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div style="margin: 0.5em;"></div>
-
-          <div style="width: 55%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
-            <div style="width: 100%;">
-              <img src="static/images/web_ade20k/001569.png_label.jpg" alt="">
-            </div>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider8" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_ade20k/001569.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_ade20k/001569.png_ours.jpg" alt="">
-              </div>
-            </div>
-          </div>
-
-
-          <div style="margin: 0.5em;"></div>
-
-          <div style="width: 55%; display: flex; justify-content: center; align-items: stretch; flex-direction: row">
-            <div style="width: 100%;">
-              <img src="static/images/web_ade20k/001915.png_label.jpg" alt="">
-            </div>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <div id="slider10" class="beer-slider" data-beer-label="ControlNet" style="width: 100%;">
-              <img src="static/images/web_ade20k/001915.png_controlnet.jpg" alt="">
-              <div class="beer-reveal" data-beer-label="Ours">
-                <img src="static/images/web_ade20k/001915.png_ours.jpg" alt="">
-              </div>
-            </div>
-          </div> -->
 
         </div>
         <br />
 
-        <!-- quantitative results start here -->
         <table>
           <thead>
             <tr>
@@ -441,14 +321,14 @@
               <td>0.921</td>
               <td>0.131</td>
             </tr>
-            <tr>
+            <tr class="separator-row">
               <td>DS4D-DA+</td>
               <td>✗</td>
               <td>784.02</td>
               <td>0.923</td>
               <td>0.131</td>
-            </tr>
-            <tr class="highlight">
+            </tr class="separator-row">
+            <tr class="separator-row">
               <td colspan="5"></td>
             </tr>
             <tr>
@@ -500,9 +380,7 @@
       </div>
     </div>
   </section>
-  <!-- End youtube video -->
 
-  <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
@@ -516,7 +394,6 @@
 }</code></pre>
     </div>
   </section>
-  <!--End BibTex citation -->
 
   <footer class="footer">
     <div class="container">
@@ -529,36 +406,4 @@
                 Page Template</a>
               which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
               You are free to borrow the of this website, we
-              just ask that you link back to this page in the footer. <br />
-              This website is licensed under a
-              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons
-                Attribution-ShareAlike 4.0 International
-                License</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Statcounter tracking code -->
-
-  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-  <!-- End of Statcounter Code -->
-  <script src="https://unpkg.com/beerslider/dist/BeerSlider.js"></script>
-  <script>
-    new BeerSlider(document.getElementById('slider1'), { start: '40' });
-    new BeerSlider(document.getElementById('slider2'), { start: '40' });
-    new BeerSlider(document.getElementById('slider3'), { start: '40' });
-    new BeerSlider(document.getElementById('slider4'), { start: '40' });
-    new BeerSlider(document.getElementById('slider5'), { start: '40' });
-    new BeerSlider(document.getElementById('slider6'), { start: '40' });
-    new BeerSlider(document.getElementById('slider7'), { start: '40' });
-    new BeerSlider(document.getElementById('slider8'), { start: '40' });
-    new BeerSlider(document.getElementById('slider9'), { start: '40' });
-    new BeerSlider(document.getElementById('slider10'), { start: '40' });
-  </script>
-</body>
-
-</html>
+              just ask that you link back to this page in the footer. <br
